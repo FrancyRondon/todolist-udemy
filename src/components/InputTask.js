@@ -86,6 +86,7 @@ const onSubmitTask = (e) => {
             value={task.categoryTask}
             onChange={onchangeCategoryTask}
           />
+          <p>Modificando mi proyecto / prueba</p>
           <Button type="submit" color="violet" onClick={onSubmitTask}>
             Añadir tarea
           </Button>
